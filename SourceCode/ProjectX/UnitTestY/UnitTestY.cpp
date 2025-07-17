@@ -26,7 +26,7 @@ namespace UnitTestY
 		}
 		TEST_METHOD(CatHatesChoco)
 		{
-			std::string result = CatReaction("chocolate");
+			std::string result = CatReaction("chocolates");
 			Assert::AreEqual(std::string("The cat purrs happily.."), result, L"Cats only love fish!");
 		}
 	};
